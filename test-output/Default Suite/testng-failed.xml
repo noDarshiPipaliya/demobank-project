@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="demobank(failed)">
+    <classes>
+      <class name="com.globalsqa.testsuite.BankTest">
+        <methods>
+          <include name="loginlink"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.globalsqa.testsuite.BankTest -->
+    </classes>
+  </test> <!-- demobank(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
